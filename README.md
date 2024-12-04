@@ -1,7 +1,7 @@
 ## Voice Activation Project by : 
-Lana Abu Romi
-Anan Khateb
-Daniel Peleg
+* Lana Abu Romi
+* Anan Khateb
+* Daniel Peleg
   
 ## Details about the project
  
