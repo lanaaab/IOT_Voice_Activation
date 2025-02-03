@@ -5,7 +5,9 @@
   
 ## Details about our project
 This IoT project features a smart lighting bulb that responds to voice activation using the wake word "Marvin." Designed for accessibility, it assists amputees, individuals with mobility limitations, and those with visual impairments by enabling hands-free control of their lighting environment.
+
 Users can adjust brightness, change colors, schedule lighting, and activate saved lighting modes for different needs. Additionally, Marvin can announce the current time and weather, providing useful information without the need for a separate device. By eliminating the need for physical switches or mobile apps, Marvin enhances independence and convenience for users who may struggle with traditional lighting controls.
+
 The wake word detection is powered by a neural network, while Google's speech-to-text service processes user commands, ensuring a seamless and responsive experience.
 
 ## Features:
