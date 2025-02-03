@@ -9,7 +9,7 @@ Users can adjust brightness, change colors, schedule lighting, and activate save
 The wake word detection is powered by a neural network, while Google's speech-to-text service processes user commands, ensuring a seamless and responsive experience.
 
 ## Features:
-* Activate the product via the wake word "Marvin"
+* Activate the product via the wake word "Marvin".
 * Turn the light on/off via voice command.
 * Change the color and brightness of the light via voice command.
 * Hear back the weather and time by sound.
@@ -18,7 +18,7 @@ The wake word detection is powered by a neural network, while Google's speech-to
 * Get the current color and brightness status.
 * Emergency feature: Send a SMS to a realtive, Blink red light and play loud sound to alert people around me.
 * Scheduale a time for the light to turn on and off daily.
-* Turn off the light in X minutes via voice command
+* Turn off the light in X minutes via voice command.
 * Choose a default color to turn the light on via an emergemcy button, and when schedualling a time to turn on.
  
 ## Folder description:
