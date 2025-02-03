@@ -4,11 +4,24 @@
 * Daniel Peleg
   
 ## Details about our project
-Our Smart Voice-Activated Light is an IoT project designed to assist people with disabilities, such as those with limited hand mobility or vision impairments. Using our wake word "Marvin" and voice commands, users can turn the light on or off, change colors, adjust brightness, and schedule lighting without needing physical interaction. The system also provides real-time updates on the weather and time, making daily tasks more accessible. By integrating speech recognition and IoT cloud services, our project enhances independence, convenience, and accessibility for those who need it most.
+This IoT project features a smart lighting bulb that responds to voice activation using the wake word "Marvin." Designed for accessibility, it assists amputees, individuals with mobility limitations, and those with visual impairments by enabling hands-free control of their lighting environment.
+Users can adjust brightness, change colors, schedule lighting, and activate saved lighting modes for different needs. Additionally, Marvin can announce the current time and weather, providing useful information without the need for a separate device. By eliminating the need for physical switches or mobile apps, Marvin enhances independence and convenience for users who may struggle with traditional lighting controls.
+The wake word detection is powered by a neural network, while Google's speech-to-text service processes user commands, ensuring a seamless and responsive experience.
 
 ## Features:
+* Activate the product via the wake word "Marvin"
+* Turn the light on/off via voice command.
+* Change the color and brightness of the light via voice command.
+* Hear back the weather and time by sound.
+* Get feedback after every command, and report failure back.
+* Request special scenes like: reading, relaxing and party.
+* Get the current color and brightness status.
+* Emergency feature: Send a SMS to a realtive, Blink red light and play loud sound to alert people around me.
+* Scheduale a time for the light to turn on and off daily.
+* Turn off the light in X minutes via voice command
+* Choose a default color to turn the light on via an emergemcy button, and when schedualling a time to turn on.
  
-## Folder description :
+## Folder description:
 * ESP32: source code for the esp side (firmware).
 * Documentation: wiring diagram + basic operating instructions
 * Unit Tests: tests for individual hardware components (input / output devices)
