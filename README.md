@@ -13,13 +13,25 @@ Our Smart Voice-Activated Light is an IoT project designed to assist people with
 * Documentation: wiring diagram + basic operating instructions
 * Unit Tests: tests for individual hardware components (input / output devices)
 * Parameters: contains description of configurable parameters 
-* Assets: 3D printed parts, Audio files used in this project, 
+* Assets: 3D printed parts, Audio files used in this project
+
+## Hardware Components:
+* Esp32
+* Adafruit neopixel 12 ring 
+* RGB LED
+* OPEN_SMART mp3 player board, built-in amplifier 
+* INMP441 Microphone
+* Button
 
 ## Arduino/ESP libraries installed for the project:
 * EspSoftwareSerial - version 6.16.1
 * ArduinoJson - version 7.3.0
 * Adafruit NeoPixel - version 1.12.3
 * WiFiManager - version 2.0.17
+
+## Connection Diagram:
+![Connection Diagram](https://github.com/user-attachments/assets/f96d4047-e5e3-4680-9c84-886f65507650)
+
 
 ## Project Poster:
  
