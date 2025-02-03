@@ -1,4 +1,4 @@
-## Voice Activation Project by : 
+## Marvin – Smart Voice-Activated Light Bulb Project by : 
 * Lana Abu Romi
 * Anan Khateb
 * Daniel Peleg
