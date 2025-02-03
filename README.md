@@ -3,21 +3,21 @@
 * Anan Khateb
 * Daniel Peleg
   
-## Details about the project
+## Details about our project
+Our Smart Voice-Activated Light is an IoT project designed to assist people with disabilities, such as those with limited hand mobility or vision impairments. Using our wake word "Marvin" and voice commands, users can turn the light on or off, change colors, adjust brightness, and schedule lighting without needing physical interaction. The system also provides real-time updates on the weather and time, making daily tasks more accessible. By integrating speech recognition and IoT cloud services, our project enhances independence, convenience, and accessibility for those who need it most.
  
 ## Folder description :
 * ESP32: source code for the esp side (firmware).
 * Documentation: wiring diagram + basic operating instructions
 * Unit Tests: tests for individual hardware components (input / output devices)
-* flutter_app : dart code for our Flutter app.
 * Parameters: contains description of configurable parameters 
 * Assets: 3D printed parts, Audio files used in this project, 
 
-## Arduino/ESP32 libraries used in this project:
 ## Arduino/ESP libraries installed for the project:
-* XXXX - version XXXXX
-* XXXX - version XXXXX
-* XXXX - version XXXXX
+* EspSoftwareSerial - version 6.16.1
+* ArduinoJson - version 7.3.0
+* Adafruit NeoPixel - version 1.12.3
+* WiFiManager - version 2.0.17
 
 ## Project Poster:
  
