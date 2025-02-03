@@ -5,6 +5,8 @@
   
 ## Details about our project
 Our Smart Voice-Activated Light is an IoT project designed to assist people with disabilities, such as those with limited hand mobility or vision impairments. Using our wake word "Marvin" and voice commands, users can turn the light on or off, change colors, adjust brightness, and schedule lighting without needing physical interaction. The system also provides real-time updates on the weather and time, making daily tasks more accessible. By integrating speech recognition and IoT cloud services, our project enhances independence, convenience, and accessibility for those who need it most.
+
+## Features:
  
 ## Folder description :
 * ESP32: source code for the esp side (firmware).
