@@ -1,4 +1,4 @@
-### Marvin – Smart Voice-Activated Light Bulb developed by: 
+# Marvin – Smart Voice-Activated Light Bulb developed by: 
 **Lana Abu Romi**  
 **Anan Khateb**  
 **Daniel Peleg**
