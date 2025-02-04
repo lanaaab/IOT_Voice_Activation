@@ -1,3 +1,5 @@
+# Pin Connections
+
 ## 🔌 Wiring Connections  
 
 ### 🔘 Button  
