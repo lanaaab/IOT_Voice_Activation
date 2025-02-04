@@ -292,32 +292,8 @@ CloudSpeechClient::CloudSpeechClient(Authentication authentication,HardwareSeria
   wavData = new char*[wavDataSize/dividedWavDataSize];
   for (int i = 0; i < wavDataSize/dividedWavDataSize; ++i) wavData[i] = new char[dividedWavDataSize];
   i2s = new I2S(ICS43434);
-  
-  // without wifi manager
-  // WiFi.mode(WIFI_STA);//// added
-  // WiFi.persistent(false);//// added
-  // WiFi.begin(ssid, password);
-
-  // Serial.println("Connecting to wifi");
-  // while (WiFi.status() != WL_CONNECTED){ 
-  //   Serial.println(".");
-  //   delay(100);
-  // }
-  // Serial.print("Connected to wifi");
    client.setCACert(root_ca); // Set your root CA certificate here
   client.setInsecure();      // Accept any SSL certificate, including self-signed
-
-  // if (!client.connect(server, 443)){
-  //    Serial.println("Connection failed!");
-  //     set_volume(20,MP3);
-  //     delay(1000);
-  //     play_filename(1,10,MP3);
-  //     ESP.restart();
-
-  // }
-//  while (WiFi.status() != WL_CONNECTED) delay(1000);
-//  client.setCACert(root_ca);
-//   if (!client.connect(server, 443)) Serial.println("Connection failed!");
 
   unsigned long timeout = 20000; // X seconds (set to 5000ms = 5 sec)
   unsigned long startTime = millis();
@@ -338,9 +314,6 @@ CloudSpeechClient::CloudSpeechClient(Authentication authentication,HardwareSeria
 String ans;
 
 CloudSpeechClient::~CloudSpeechClient() {
-  // client.stop();
-  // WiFi.disconnect();
-
     client.stop();
     for (int i = 0; i < wavDataSize/dividedWavDataSize; ++i) delete[] wavData[i];
     delete[] wavData;

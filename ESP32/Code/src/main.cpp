@@ -671,18 +671,6 @@ void loop()
               preferencesLana.end();
               return;
            }
-             
-            //  unsigned int our_color1 = 255;
-            //  unsigned int our_color2 = 255;
-            //  unsigned int our_color3 = 255;
-            //  preferencesLana.putUInt("counter1", our_color1);
-            //  preferencesLana.putUInt("counter2", our_color2);
-            //  preferencesLana.putUInt("counter3", our_color3);
-            //  preferencesLana.putUInt("currentColor", 4);
-            //  preferencesLana.putUInt("brightness", 100);
-            //  preferencesLana.end();
-
-
             
             unsigned int default1= preferencesLana.getUInt("default", 0);
             preferencesLana.end();
@@ -788,19 +776,13 @@ void loop()
              preferencesLana.putUInt("currentColor", 0);
              preferencesLana.putUInt("brightness", 100);
              preferencesLana.end();
-            //  set_volume(20,MP3);
-            //  delay(1000);
-            //  play_filename(1, 9, MP3);
              Serial.println("turning off");
-             //while (digitalRead(ButtonPin) == LOW);  // Wait for button release
-            //delay(50);  // Extra debounce after release
     }
     else{
            defaultLight();
           // while (digitalRead(ButtonPin) == LOW){
             Serial.println("Turning on");
-           //}  // Wait for button release
-            //delay(50);  // Extra debounce after release
+
     }
   }
   preferences111.begin("help", false);
