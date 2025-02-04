@@ -30,8 +30,8 @@ enum Authentication {
 
 //for the SMS in help feature, replace the phone number and API key with your own
 const String serverName = "https://api.callmebot.com/whatsapp.php?";
-const String phoneNumber = "972542553023"; // Replace with your phone number
-const String apiKey = "2123884";          // Replace with your API key
+const String phoneNumber = ""; // Replace with your phone number
+const String apiKey = "";          // Replace with your API key
 
 
 String httpGETRequest(const char* serverName);

@@ -233,19 +233,19 @@ String httpGETRequest(const char* serverName) {
 }
 
 // insert your personal data here
-String openWeatherMapApiKey = "c1534e2fed2464f7dd4941e28b5155a8";
-String city = "Haifa";
-String countryCode = "IL";
+String openWeatherMapApiKey = "";
+String city = "";
+String countryCode = "";
 String jsonBuffer;
 
 
 //weather
 String URL = "http://api.openweathermap.org/data/2.5/weather?";
-String ApiKeyW = "c1534e2fed2464f7dd4941e28b5155a8";
+String ApiKeyW = "";
 
 // Replace with your location Credentials
-String lat = "32.77779191475653";
-String lon = "35.01913642447971";
+String lat = "";
+String lon = "";
 
 Preferences preferences1219;
 //MP3
