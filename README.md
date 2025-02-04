@@ -63,12 +63,6 @@ The **wake word detection** is powered by a **neural network**, while **Google's
 | INMP441 Microphone  | ![dd351aae-5479-4e0d-bb66-febf72616b36](https://github.com/user-attachments/assets/52964047-7aee-49e4-b670-14926ab3ac3f)|
 | Button | ![9edc9130-1cfb-4144-bbbb-d071262db454](https://github.com/user-attachments/assets/b1f34372-a740-4f1c-bce1-671a209c3057)|
 
-* Esp32
-* Adafruit neopixel 12 ring 
-* RGB LED
-* OPEN_SMART mp3 player board, built-in amplifier 
-* INMP441 Microphone
-* Button
 
 ## Arduino/ESP libraries installed for the project:
 * EspSoftwareSerial - version 6.16.1
