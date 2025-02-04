@@ -10,19 +10,41 @@ Users can adjust brightness, change colors, schedule lighting, and activate save
 
 The wake word detection is powered by a neural network, while Google's speech-to-text service processes user commands, ensuring a seamless and responsive experience.
 
-## Features:
-* Activate the product via the wake word "Marvin".
-* Turn the light on/off via voice command.
-* Change the color and brightness of the light via voice command.
-* Hear back the weather and time by sound.
-* Get feedback after every command, and report failure back.
-* Request special scenes like: reading, relaxing and party.
-* Get the current color and brightness status.
-* Emergency feature: Send a SMS to a realtive, Blink red light and play loud sound to alert people around me.
-* Scheduale a time for the light to turn on and off daily.
-* Turn off the light in X minutes via voice command.
-* Choose a default color to turn the light on via an emergemcy button, and when schedualling a time to turn on.
- 
+
+## ✨ Features  
+
+### 🎤 Voice Control  
+- Activate the light using the **wake word "Marvin."**  
+- Turn the light **on/off** with voice commands.  
+- Adjust **brightness** and **color** using speech.  
+
+### ⏳ Scheduling & Timers  
+- **Schedule** the light to turn **on/off automatically** at a set time.  
+- **Set a timer** to turn off the light in **X minutes.**  
+- **Cancel scheduled actions** if needed.  
+
+### 📢 Command Feedback  
+- **Audio feedback** after every command, including error reporting.  
+- **Visual indicator** to show when to speak, errors, and system status.  
+
+### 📡 Wi-Fi Manager  
+- Uses a **Wi-Fi management library** for seamless **network configuration and connectivity handling.**  
+
+### 🔊 Customizable Experience  
+- **Custom default color** for scheduled activations and emergency mode.  
+- **Adjustable speaker volume** for voice responses and alerts.  
+
+### 🌍 Smart Announcements  
+- Hear the **current time and weather** through voice output.  
+
+### 🎭 Preset Scenes  
+- Activate lighting modes like **reading, relaxing, or party mode.**  
+
+### 🚨 Emergency Mode  
+- **Send an SMS alert** to a selected contact.  
+- **Blink red light** and **play a loud sound** to alert people nearby.  
+
+
 ## Folder description:
 * ESP32: source code for the esp side (firmware).
 * Documentation: wiring diagram + basic operating instructions
