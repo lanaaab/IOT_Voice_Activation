@@ -1,6 +1,4 @@
-# Pin Connections
-
-## 🔌 Wiring Connections  
+# 🔌 Pin Connections
 
 ### 🔘 Button  
 | Pin        | ESP32 Connection |
