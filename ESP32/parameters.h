@@ -21,10 +21,30 @@
 #define RXp2 16
 #define TXp2 17
 
-//cloudSpeechClient.h
+//CloudSpeechClient.h
 // neopixel ring
 #define PIN       12 
 #define NUMPIXELS 12 
+
+//for the SMS in help feature, replace the phone number and API key with your own
+const String serverName = "https://api.callmebot.com/whatsapp.php?";
+const String phoneNumber = ""; // Replace with your phone number
+const String apiKey = "";          // Replace with your API key
+
+//CloudSpeechClient.cpp
+// insert your personal data here
+String openWeatherMapApiKey = "";
+String city = "";
+String countryCode = "";
+
+
+//weather
+String URL = "http://api.openweathermap.org/data/2.5/weather?";
+String ApiKeyW = "";
+
+// Replace with your location Credentials
+String lat = "";
+String lon = "";
 
 
 //network_param.h
