@@ -78,6 +78,8 @@ The **wake word detection** is powered by a **neural network**, while **Google's
 
 
 ## Project Poster:
+![Poster-1](https://github.com/user-attachments/assets/760fc446-1815-4345-9396-9568bf998f69)
+
  
 This project is part of ICST - The Interdisciplinary Center for Smart Technologies, Taub Faculty of Computer Science, Technion
 https://icst.cs.technion.ac.il/
