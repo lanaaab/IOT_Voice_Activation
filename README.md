@@ -54,6 +54,15 @@ The **wake word detection** is powered by a **neural network**, while **Google's
 * Assets: 3D printed parts, Audio files used in this project
 
 ## Hardware Components:
+| Component           | Photo |
+|---------------|------|
+| Esp32 | ![31165e52-3b7b-4ef5-be98-202e6b4c33a5](https://github.com/user-attachments/assets/d8305376-db23-490a-a731-9189dd4170c1)|
+| Adafruit neopixel 12 Ring  | ![a497ca2f-a295-4f07-9367-f1e7f704b138](https://github.com/user-attachments/assets/02b20ee7-45f9-4b02-8c39-3dd2a4a4e334)|
+| RGB LED | ![b89c2bec-c4cd-4c79-a9ed-ed24de0e8c4f](https://github.com/user-attachments/assets/313be542-a188-4eb3-a3e1-c77116a4e6da)|
+| OPEN_SMART mp3 player board, built-in amplifier  | ![5edff7b9-d026-4ebc-8c4d-e24fd955b6d4](https://github.com/user-attachments/assets/6d7599bf-787b-49b0-966b-e96c12946cf4)|
+| INMP441 Microphone  | ![dd351aae-5479-4e0d-bb66-febf72616b36](https://github.com/user-attachments/assets/52964047-7aee-49e4-b670-14926ab3ac3f)|
+| Button | ![9edc9130-1cfb-4144-bbbb-d071262db454](https://github.com/user-attachments/assets/b1f34372-a740-4f1c-bce1-671a209c3057)|
+
 * Esp32
 * Adafruit neopixel 12 ring 
 * RGB LED
