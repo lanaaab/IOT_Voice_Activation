@@ -48,11 +48,11 @@ The **wake word detection** is powered by a **neural network**, while **Google's
 
 ## 📂 Project Structure  
 
-- **ESP32/** – Source code for the ESP32 firmware.  
-- **Documentation/** – Wiring diagram and basic operating instructions.  
-- **Unit Tests/** – Tests for individual hardware components (input/output devices).  
-- **Parameters/** – Description of configurable parameters.  
-- **Assets/** – 3D printed parts and audio files used in this project.
+- **ESP32** – Source code for the ESP32 firmware.  
+- **Documentation** – Wiring diagram and basic operating instructions.  
+- **Unit Tests** – Tests for individual hardware components (input/output devices).  
+- **Parameters** – Description of configurable parameters.  
+- **Assets** – 3D printed parts and audio files used in this project.
 
 
 ## Hardware Components  
