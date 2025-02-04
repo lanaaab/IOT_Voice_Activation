@@ -46,12 +46,13 @@ The **wake word detection** is powered by a **neural network**, while **Google's
 - **Blink red light** and **play a loud sound** to alert people nearby.  
 
 
-## Folder description:
-* ESP32: source code for the esp side (firmware).
-* Documentation: wiring diagram + basic operating instructions
-* Unit Tests: tests for individual hardware components (input / output devices)
-* Parameters: contains description of configurable parameters 
-* Assets: 3D printed parts, Audio files used in this project
+## 📂 Project Structure  
+
+- **ESP32/** – Source code for the ESP32 firmware.  
+- **Documentation/** – Wiring diagram and basic operating instructions.  
+- **Unit Tests/** – Tests for individual hardware components (input/output devices).  
+- **Parameters/** – Description of configurable parameters.  
+- **Assets/** – 3D printed parts and audio files used in this project.
 
 
 ## Hardware Components  
